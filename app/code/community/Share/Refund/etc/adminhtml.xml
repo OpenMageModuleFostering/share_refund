@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Share_Refund extension
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the MIT License
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/mit-license.php
+ *
+ * @category       Share
+ * @package        Share_Refund
+ * @copyright      Copyright (c) 2015
+ * @license        http://opensource.org/licenses/mit-license.php MIT License
+ */
+-->
+<config>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <share_refund translate="title" module="share_refund">
+                                        <title>Refund</title>
+                                    </share_refund>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                    <share_refund translate="title" module="share_refund">
+                        <title>Share a Refund</title>
+                        <children>
+                            <app translate="title" module="share_refund">
+                                <title>Dashboard</title>
+                                <sort_order>0</sort_order>
+                            </app>
+                            <help translate="title" module="share_refund">
+                                <title>Help</title>
+                                <sort_order>1</sort_order>
+                            </help>
+                        </children>
+                    </share_refund>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+    <menu>
+        <share_refund translate="title" module="share_refund">
+            <title>Share a Refund</title>
+            <sort_order>195</sort_order>
+            <children>
+                <app translate="title" module="share_refund">
+                    <title>Dashboard</title>
+                    <action>adminhtml/refund_app</action>
+                    <sort_order>0</sort_order>
+                </app>
+                <help translate="title" module="share_refund">
+                    <title>Help</title>
+                    <action>adminhtml/refund_app/help</action>
+                    <sort_order>1</sort_order>
+                </help>
+            </children>
+        </share_refund>
+    </menu>
+</config>

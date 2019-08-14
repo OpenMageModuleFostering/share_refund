@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<package>
+    <name>Share_Refund</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://www.opensource.org/licenses/mit-license.php">MIT License</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Share a Refund finds the late packages, processes the refund claims and delivers the refund credits back.</summary>
+    <description>&lt;p&gt;Share a Refund is here for businesses of all sizes. Shipping just a few packages a week or several thousand a day, this cost cutting app will lower your shipping expenses from FedEx and UPS. The best part, there's no additional work to you or anyone on your team. Simply signup and watch us bring in the savings. Any package that is delivered 1 minute late is eligible for a full refund from FedEx and UPS. But finding the late shipments is difficult, and filing refund claims takes time and must be done quickly. Share a Refund manages all tasks required to reclaim the money you are already spending. We make it easy for you to save money on shipping!&lt;/p&gt;&#xD;
+&#xD;
+&lt;h3&gt;Why choose Share a Refund:&lt;/h3&gt;&#xD;
+&lt;p&gt;&#x25CF; Completely Risk-free service&lt;br /&gt;&#xD;
+&#x25CF; No changes to your existing operation&lt;br /&gt;&#xD;
+&#x25CF; No work is required from you&lt;br /&gt;&#xD;
+&#x25CF; Clear and easy reporting&lt;br /&gt;&#xD;
+&#x25CF; Cancel at anytime&lt;br /&gt;&#xD;
+&lt;/p&gt;&#xD;
+&#xD;
+&lt;h3&gt;Our Process:&lt;/h3&gt;&lt;br /&gt;&#xD;
+&lt;p&gt;1. We analyze your invoices from Fedex and UPS.&lt;br /&gt;&#xD;
+2. We determine which shipments are eligible for refund.&lt;br /&gt;&#xD;
+3. We file refund claims on your behalf.&lt;br /&gt;&#xD;
+4. We track the claims delivered back to your shipping accounts.&lt;br /&gt;&#xD;
+5. We report weekly on all activities related to your shipping accounts.&lt;br /&gt;&#xD;
+&lt;/p&gt;&#xD;
+&#xD;
+&lt;h3&gt;How we keep the lights on&lt;/h3&gt;&lt;br /&gt;&#xD;
+&lt;p&gt;Share a Refund collects 50% of the savings delivered. There are no upfront fees, and no ongoing fees. We continually analyze your shipping accounts for free, and report on any refunds delivered weekly. This is a performance-based service. To put it simply, if we deliver $20 in savings in a given week, then we invoice and collect payment from a credit card on file for $10, or half of the total savings delivered. If there are no savings delivered, then you pay nothing.&lt;/p&gt;&#xD;
+&#xD;
+&lt;h3&gt;Multiple shipping accounts&lt;/h3&gt;&lt;br /&gt;&#xD;
+&lt;p /&gt;With Share a Refund, you can manage multiple FedEx and UPS accounts. There's no limit on the number of shipping accounts that we manage or the number of shipments that are auditing. &lt;p /&gt;&#xD;
+&#xD;
+&lt;h3&gt;No software to install&lt;/h3&gt;&#xD;
+&#xD;
+&lt;p&gt;Share a Refund is a web-based solution that is hosted in the cloud, meaning that you'll never have to worry about installing software, managing upgrades or backing up your data.&lt;/p&gt;&#xD;
+&#xD;
+&lt;h3&gt;Non-US based customers&lt;/h3&gt;&#xD;
+&#xD;
+&lt;p&gt;Share a Refund was built with you in mind, this application is for you. Please note that there are limitations on the terms of service provided to you from UPS and FedEx. That said, we will let you know of any limitations in our auditing abilities based on your country of residence. &lt;/p&gt;&#xD;
+&#xD;
+&lt;p /&gt;Sign up for an account today and get started auditing your accounts with FedEx and UPS.&lt;p /&gt;</description>
+    <notes>Initial</notes>
+    <authors><author><name>Share a Refund</name><user>share-a-refund</user><email>it@sharearefund.com</email></author></authors>
+    <date>2016-01-06</date>
+    <time>14:54:02</time>
+    <contents><target name="magecommunity"><dir name="Share"><dir name="Refund"><dir name="Block"><dir name="Adminhtml"><dir name="App"><dir name="Edit"><file name="Form.php" hash="e30d36bae7b1b478d12bf52a12afbee3"/><dir name="Tab"><file name="Form.php" hash="02f914000122f63edd17655b1bf4dae9"/></dir><file name="Tabs.php" hash="e329004ae75d3f97eaccd10a8a1d5b86"/></dir><file name="Edit.php" hash="d95bd9cb0d1e1a82bdbb3e535db6c6c2"/><file name="Grid.php" hash="daba9d1de40364ff25806f2dfd8ea40c"/></dir><file name="App.php" hash="40267f9fe5bd196ca1ac05f6e68557fa"/></dir></dir><dir name="Controller"><dir name="Adminhtml"><file name="Refund.php" hash="e4639d8cded1cca3ce0391b353e8b522"/></dir></dir><dir name="Helper"><file name="Data.php" hash="4006aeb195448ef3f84ef56c81d2694a"/></dir><dir name="Model"><file name="App.php" hash="185b77b71f8d39cb0a9849e93e13206e"/><dir name="Resource"><dir name="App"><file name="Collection.php" hash="10ffc475ff4cdff771b261390809251e"/></dir><file name="App.php" hash="6ff237c8cbe8e0863163dee0c4865216"/><file name="Setup.php" hash="46e82958fcf5a7daeb5c2e0ec1bf73fc"/></dir></dir><dir name="controllers"><dir name="Adminhtml"><dir name="Refund"><file name="AppController.php" hash="b1f7f8c42e9a61b48cdc0fec114adca5"/></dir></dir></dir><dir name="etc"><file name="adminhtml.xml" hash="aa5ca789b5b67c78cef4c88d9d3101c0"/><file name="config.xml" hash="1b4a416751aab9281f0375fdb473d852"/></dir><dir name="sql"><dir name="share_refund_setup"><file name="install-1.0.0.php" hash="28d64bce94fd7e14eb0b9dd74c89fd0e"/></dir></dir></dir></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><file name="share_refund.xml" hash="b0aba4361c40dd2cbadf7e5755b619f9"/></dir><dir name="template"><dir name="sharearefund"><file name="help.phtml" hash="c3efdabd4cc595a9a68156d39ffdad16"/><file name="index.phtml" hash="ac7463b9f5005f4afe3cec3bdf00592d"/></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Share_Refund.xml" hash="8193964ccc35ca7f3441b5b125db2f9c"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>8.0.0</max></php></required></dependencies>
+</package>

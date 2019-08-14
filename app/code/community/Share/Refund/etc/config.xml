@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Share_Refund extension
+ * 
+ * NOTICE OF LICENSE
+ * 
+ * This source file is subject to the MIT License
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/mit-license.php
+ * 
+ * @category       Share
+ * @package        Share_Refund
+ * @copyright      Copyright (c) 2015
+ * @license        http://opensource.org/licenses/mit-license.php MIT License
+ */
+-->
+<config>
+    <modules>
+        <Share_Refund>
+            <version>1.0.0</version>
+        </Share_Refund>
+    </modules>
+    <global>
+        <resources>
+            <share_refund_setup>
+                <setup>
+                    <module>Share_Refund</module>
+                    <class>Share_Refund_Model_Resource_Setup</class>
+                </setup>
+            </share_refund_setup>
+        </resources>
+        <blocks>
+            <share_refund>
+                <class>Share_Refund_Block</class>
+            </share_refund>
+        </blocks>
+        <helpers>
+            <share_refund>
+                <class>Share_Refund_Helper</class>
+            </share_refund>
+        </helpers>
+        <models>
+            <share_refund>
+                <class>Share_Refund_Model</class>
+                <resourceModel>share_refund_resource</resourceModel>
+            </share_refund>
+            <share_refund_resource>
+                <class>Share_Refund_Model_Resource</class>
+                <entities>
+                    <app>
+                        <table>share_refund_app</table>
+                    </app>
+                </entities>
+            </share_refund_resource>
+        </models>
+    </global>
+    <adminhtml>
+        <layout>
+            <updates>
+                <share_refund>
+                    <file>share_refund.xml</file>
+                </share_refund>
+            </updates>
+        </layout>
+        <translate>
+            <modules>
+                <Share_Refund>
+                    <files>
+                        <default>Share_Refund.csv</default>
+                    </files>
+                </Share_Refund>
+            </modules>
+        </translate>
+    </adminhtml>
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <Share_Refund before="Mage_Adminhtml">Share_Refund_Adminhtml</Share_Refund>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+</config>

@@ -1,0 +1,17 @@
+<?php
+$user = Mage::getSingleton('admin/session');
+
+$user_id = $user->getUser()->getUserId();
+$email = $user->getUser()->getEmail();
+$name = $user->getUser()->getFirstname() . ' ' . $user->getUser()->getLastname();
+$base_url = Mage::getBaseUrl();
+
+$url = 'http://app.sharearefund.com/magento/oauth?email='.$email . '&name=' . $name . '&url=' . $base_url . '&user_id=' . $user_id;
+?>
+
+<iframe src="<?php echo $url; ?>" width="100%" style="border:0;height: 100em;" onload="" frameborder="0"  >
+    <p>Your browser does not support iframes. <a href="http://app.sharearefund.com" target="_blank">Click here to continue.</a></p>
+</iframe>
+<style>
+.middle{padding:0;}
+</style>
