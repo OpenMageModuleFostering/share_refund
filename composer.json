@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Share_Refund",
+    "name": "OpenMageModuleFostering\/Share_Refund",
     "type": "magento-module",
     "license": "MIT-License",
     "homepage": "",
     "description": "Share a Refund finds the late packages, processes the refund claims and delivers the refund credits back.",
     "authors": [
-    {
-        "name": "Share a Refund",
-        "email": "it@sharearefund.com"
-    }
-],
+        {
+            "name": "Share a Refund",
+            "email": "it@sharearefund.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
